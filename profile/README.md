@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/xS8Q9TmL/new-banner.jpg" width="140" alt="MIAJ logo" />
+  <img src="https://raw.githubusercontent.com/miajdev/.github/refs/heads/main/banner.svg" width="140" alt="MIAJ logo" />
 </p>
 
 <h1 align="center">MIAJ • Secure the Core. Unleash the Cloud</h1>
