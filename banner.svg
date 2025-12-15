@@ -1,0 +1,161 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     aria-label="MIAJ GitHub Organization Banner">
+
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="55%" stop-color="#071A33"/>
+      <stop offset="100%" stop-color="#0A2345"/>
+    </linearGradient>
+
+    <!-- Accent gradient -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2B98EF"/>
+      <stop offset="100%" stop-color="#F7B980"/>
+    </linearGradient>
+
+    <!-- Soft glows -->
+    <radialGradient id="blueGlow" cx="20%" cy="18%" r="45%">
+      <stop offset="0%" stop-color="#2B98EF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2B98EF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orangeGlow" cx="85%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#F7B980" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F7B980" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#C1D0E8" stroke-opacity="0.08"/>
+    </pattern>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1280" height="640" rx="48" fill="url(#bg)"/>
+  <rect width="1280" height="640" rx="48" fill="url(#blueGlow)"/>
+  <rect width="1280" height="640" rx="48" fill="url(#orangeGlow)"/>
+  <rect width="1280" height="640" rx="48" fill="url(#grid)"/>
+
+  <!-- Decorative orbs -->
+  <circle cx="90" cy="90" r="90" fill="#2B98EF" opacity="0.45"/>
+  <circle cx="1190" cy="100" r="85" fill="#F7B980" opacity="0.45"/>
+
+  <!-- Logo -->
+  <g transform="translate(120 210)">
+    <rect width="96" height="96" rx="24" fill="#0A1A2E" opacity="0.95"/>
+    <path d="M24 78V18L48 48L72 18V78"
+          stroke="url(#accent)"
+          stroke-width="8"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          filter="url(#glow)"/>
+    <circle cx="48" cy="64" r="6" fill="#F7B980"/>
+  </g>
+
+  <!-- Text -->
+  <text x="250" y="270"
+        font-family="Inter, Segoe UI, sans-serif"
+        font-size="72"
+        font-weight="700"
+        letter-spacing="0.18em"
+        fill="#F7F9FF">
+    MIAJ
+  </text>
+
+  <text x="250" y="320"
+        font-family="Inter, Segoe UI, sans-serif"
+        font-size="26"
+        fill="#C1D0E8">
+    Modern Infrastructure &amp; Journeys
+  </text>
+
+  <text x="250" y="365"
+        font-family="Inter, Segoe UI, sans-serif"
+        font-size="22"
+        fill="#93A9C9">
+    Migrations · Hybrid Cloud · SRE · Security
+  </text>
+
+  <text x="250" y="410"
+        font-family="Space Mono, monospace"
+        font-size="20"
+        fill="#2B98EF">
+    Trusted by engineering &amp; platform leaders
+  </text>
+
+  <!-- Headline -->
+  <text x="120" y="485"
+        font-family="Inter, Segoe UI, sans-serif"
+        font-size="34"
+        font-weight="600"
+        letter-spacing="0.08em">
+    <tspan fill="#F7B980">SECURE THE CORE.</tspan>
+    <tspan fill="#2B98EF"> UNLEASH THE CLOUD.</tspan>
+  </text>
+
+  <!-- Bottom signal lines -->
+  <g fill="none" stroke-linecap="round">
+
+    <!-- Top dotted blue -->
+    <path d="M0 520
+             C200 520 260 520 340 520
+             S520 520 600 540
+             S760 580 880 540
+             S1040 520 1280 520"
+          stroke="#2B98EF"
+          stroke-width="3"
+          stroke-dasharray="6 10"
+          opacity="0.9"/>
+
+    <!-- Main blue solid -->
+    <path d="M0 548
+             C220 548 300 548 380 548
+             S560 548 640 568
+             S820 610 940 568
+             S1100 548 1280 548"
+          stroke="#2B98EF"
+          stroke-width="4"
+          opacity="0.95"/>
+
+    <!-- Amber wave -->
+    <path d="M0 572
+             C260 572 360 592 480 592
+             S660 552 760 552
+             S980 592 1280 572"
+          stroke="#F7B980"
+          stroke-width="3.5"
+          opacity="0.9"/>
+
+    <!-- Bottom support line -->
+    <path d="M0 602
+             C240 602 360 602 520 602
+             S820 602 980 602
+             S1160 602 1280 602"
+          stroke="#2B98EF"
+          stroke-width="3"
+          opacity="0.75"/>
+
+    <!-- Star accent -->
+    <g transform="translate(1180 580) scale(1.1)">
+      <path d="M10 0 L13 7 L20 10 L13 13 L10 20 L7 13 L0 10 L7 7 Z"
+            fill="#C1D0E8"
+            opacity="0.85"/>
+    </g>
+
+  </g>
+
+</svg>
